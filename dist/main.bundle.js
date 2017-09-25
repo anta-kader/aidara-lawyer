@@ -25,7 +25,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "body {\r\n\tfont-family: 'PT Sans', sans-serif;\r\n\tfont-size: 12px;\r\n}\r\n\r\n#home {\r\n\tbackground: url(\"/assets/img/home.jpeg\") no-repeat;\r\n\tbackground-size: cover;\r\n\theight: 100vh;\r\n\twidth: inherit;\r\n\ttext-align: center;\r\n\toverflow: auto;\r\n}\r\n#title{\r\n\tmargin: 10%; \r\n\tfloat: right;\r\n}\r\n\r\n#logo {\r\n\twidth: 300px;\r\n\theight: 300px;\r\n}\r\n\r\nh1, .navbar-brand {\r\n\tfont-family: 'Expletus Sans', cursive;\r\n}\r\n\r\nh2 { font-size: 1.5em; }", ""]);
 
 // exports
 
@@ -38,7 +38,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{title}}!\n  </h1>\n  <img width=\"300\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n\n"
+module.exports = "<div class=\"content-fluid\">\n\n  <nav class=\"navbar fixed-top navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">KA</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Who is Katia Aïdara</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Contacts</a>\n        </li>\n      </ul>\n    </div>\n  </nav>\n\n  <div class=\"row\" id=\"home\">\n    <div class=\"col-md-12\">\n      <div id=\"title\">\n        <img id=\"logo\" src=\"/assets/img/logo.png\"> \n        <h1>Katia Aïdara</h1>\n        <h2>Lawyering & Consulting</h2>\n      </div>  \n    </div>  \n  </div>  \n</div>"
 
 /***/ }),
 

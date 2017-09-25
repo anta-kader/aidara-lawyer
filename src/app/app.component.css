@@ -1,0 +1,28 @@
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+}
+
+#home {
+	background: url("/assets/img/home.jpeg") no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: inherit;
+	text-align: center;
+	overflow: auto;
+}
+#title{
+	margin: 10%; 
+	float: right;
+}
+
+#logo {
+	width: 300px;
+	height: 300px;
+}
+
+h1, .navbar-brand {
+	font-family: 'Expletus Sans', cursive;
+}
+
+h2 { font-size: 1.5em; }
